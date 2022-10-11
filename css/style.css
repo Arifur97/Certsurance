@@ -1,0 +1,88 @@
+
+.header{
+    background-color: #013e50;
+    background-image: url("../images/blue-hex.svg");
+}
+.menu{
+    font-size: 20px;
+}
+.slider-heading{
+    font-size: 48px;
+    line-height: 1.8cm;
+}
+.hub-heading{
+    font-size: 44px;
+}
+.integration-text{
+    font-size: 38px!important;
+}
+.slide-text{
+    font-size: 23px;
+}
+.slider-hr{
+    background: #5c7cfa;
+    width: 100%;
+    height: 15px;
+}
+.background{
+    background: #f4f3f3;
+}
+.line-height{
+    line-height: 1.76em;
+}
+.footer-search-img{
+    width: 90%;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/*socail*/
+
+.social ul li{
+    list-style: none;
+    display: inline;
+}
+.social ul li a{
+    text-decoration: none;
+    color: #5c7cfa;
+    transition: 0.5s;
+}
+.social ul li a i{
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #5c7cfa;
+    padding: 10px;
+}
+.social ul li:hover a{
+    color: #000;
+}
+.social ul li:hover a i{
+    background: #000;
+}
+.bg-2:hover{
+    background: #000;
+}
+.social ul li:nth-child(1) a{
+    color: #FFFFFF;
+}
+.social ul li:nth-child(2) a{
+    color: #FFFFFF;
+}
+.about-text{
+    font-size: 24px;
+}
+.about-text-1{
+    font-size: 18px;
+}
+.bg-contact{
+    background: rgba(0,0,0,0.16);
+}
